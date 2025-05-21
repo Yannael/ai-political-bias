@@ -132,10 +132,10 @@ def gen_compass_fr_en(filename_prefix="political_compass"):
     
     # Define colors and markers for different model families
     model_styles = {
-        'openai': {'color': '#4285F4', 'marker': 'o', 'name': 'OpenAI'},
-        'deepseek': {'color': '#34A853', 'marker': 's', 'name': 'DeepSeek'},
-        'x-ai': {'color': '#EA4335', 'marker': '^', 'name': 'X.AI'},
-        'mistralai': {'color': '#FBBC05', 'marker': '*', 'name': 'Mistral AI'}
+        'openai': {'color': '#4285F4', 'marker': 'o', 'name': 'OpenAI GPT-4o'},
+        'deepseek': {'color': '#34A853', 'marker': 's', 'name': 'DeepSeek-chat-v3-0324'},
+        'x-ai': {'color': '#EA4335', 'marker': '^', 'name': 'X.AI Grok-beta'},
+        'mistralai': {'color': '#FBBC05', 'marker': '*', 'name': 'Mistral-large-2411'}
     }
     
     # Function to setup axis
@@ -269,10 +269,10 @@ def animate_compass(filename_prefix="political_compass_animation", save_as_gif=T
 
     # Model styles
     model_styles = {
-        'openai': {'color': '#4285F4', 'marker': 'o', 'name': 'OpenAI'},
-        'deepseek': {'color': '#34A853', 'marker': 's', 'name': 'DeepSeek'},
-        'x-ai': {'color': '#EA4335', 'marker': '^', 'name': 'X.AI'},
-        'mistralai': {'color': '#FBBC05', 'marker': '*', 'name': 'Mistral AI'}
+        'openai': {'color': '#4285F4', 'marker': 'o', 'name': 'OpenAI GPT-4o'},
+        'deepseek': {'color': '#34A853', 'marker': 's', 'name': 'DeepSeek-chat-v3-0324'},
+        'x-ai': {'color': '#EA4335', 'marker': '^', 'name': 'X.AI Grok-beta'},
+        'mistralai': {'color': '#FBBC05', 'marker': '*', 'name': 'Mistral-large-2411'}
     }
 
     fig, ax = plt.subplots(figsize=(12, 8))
@@ -340,7 +340,7 @@ def animate_compass(filename_prefix="political_compass_animation", save_as_gif=T
         ax.clear()
         setup_background()
         t = frame / (num_frames - 1)
-        ax.set_title(f"\nFrom English (step 1) to French (step 30) \n\n Political Compass Transition (Step {frame+1}/{num_frames})", fontsize=20)
+        ax.set_title(f"How do AI poilitical biases differ between English and French?\n\nFrom English (step 1) to French (step 30) (Step {frame+1}/{num_frames})", fontsize=20)
 
         for pt in points:
             interp = (1 - t) * pt["start"] + t * pt["end"]

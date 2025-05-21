@@ -4,7 +4,7 @@ Check out the interface on HuggingFace: https://huggingface.co/spaces/Yannael/ge
 
 ## How it works
 
-The interface allows to compare the political compass of four models (OpenAI GPT-4o, DeepSeek DeepSeek-chat-v3-0324, X-ai Grok-beta, MistralAI Mistral-large-2411) on a set of 63 political questions from the [Political Compass](https://politicalcompass.org/).
+The interface allows to compare the political compass of four models (OpenAI GPT-4o, DeepSeek DeepSeek-chat-v3-0324, X-ai Grok-beta, MistralAI Mistral-large-2411) on a set of 62 political questions from the [Political Compass](https://politicalcompass.org/).
 
 The political compass is computed by averaging the scores of the models on each question.
 

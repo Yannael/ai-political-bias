@@ -180,19 +180,18 @@ with gr.Blocks(theme=gr.themes.Soft(), css=css) as interface:
         with gr.Column():
             gr.Markdown('#### What is this ?')
             gr.Markdown("""
-The animation shows how generative AI models shift on the political compass when switching from English to French prompts.
+The interface allows to compare the political compass of four models (OpenAI GPT-4o, DeepSeek DeepSeek-chat-v3-0324, X-ai Grok-beta, MistralAI Mistral-large-2411) on a set of 62 political questions from the [Political Compass](https://politicalcompass.org/).
 
-The question bank is a set of 62 political questions from the [Political Compass](https://politicalcompass.org/).
-
-Four models were tested:
-- OpenAI GPT-4o
-- DeepSeek DeepSeek-chat-v3-0324
-- X-ai Grok-beta
-- MistralAI Mistral-large-2411
+A couple of highlights:
+- All state-of-the-art LLMs tend to show a left-of-center political leaning (check out [David Rozado's work](https://davidrozado.substack.com/p/new-results-of-state-of-the-art-llms) for a more comprehensive analysis)
+- The X.ai Grok-beta and OpenAI GPT-4o models show the greatest change when switching from English to French prompts, making them even more polarized. 
+- The Mistral-large-2411 model (by French company Mistral) shows the opposite behaviour, becoming less polarized when prompted in French.
 
 All questions were asked three times, and the scores are averaged to compute the final political compass.
 
-Details of the model answers and scores are available below.
+Details of the model answers and scores are available below. 
+
+The code and methodology are available on [GitHub](https://github.com/Yannael/ai-political-bias).
             """)
 
         with gr.Column():
@@ -262,26 +261,26 @@ These two maps show the political compass of the models.
                 corresponding_question = questions['questions_fr'].iloc[idx]
             
             # Get content for both languages
-            fig_fr, fig_en, md_fr, md_en = update_content(questions['questions_fr'].iloc[idx], questions['questions_en'].iloc[idx])
+            fig_en, fig_fr, md_en, md_fr = update_content(questions['questions_en'].iloc[idx], questions['questions_fr'].iloc[idx])
         
             return [
                 corresponding_question,  # Update other dropdown
-                fig_fr, fig_en,         # Update plots
-                md_fr, md_en           # Update markdown content
+                fig_en, fig_fr,         # Update plots
+                md_en, md_fr           # Update markdown content
             ]
     
         # Update content when French dropdown changes
         dropdown_fr.change(
             fn=lambda q: sync_questions(q, 'fr'),
             inputs=[dropdown_fr],
-            outputs=[dropdown_en, plot_fr, plot_en, answers_fr, answers_en]
+            outputs=[dropdown_en, plot_en, plot_fr, answers_en, answers_fr]
         )
     
         # Update content when English dropdown changes
         dropdown_en.change(
             fn=lambda q: sync_questions(q, 'en'),
             inputs=[dropdown_en],
-            outputs=[dropdown_fr, plot_fr, plot_en, answers_fr, answers_en]
+            outputs=[dropdown_fr, plot_en, plot_fr, answers_en, answers_fr]
         )
     
     
@@ -292,7 +291,7 @@ These two maps show the political compass of the models.
         gr.Markdown("""
 Made with ❤️ by [Yann-Aël Le Borgne](https://www.linkedin.com/in/yannaelb/)
 
-Source code: [GitHub](https://github.com/yalb/ai-political-bias)
+Source code: [GitHub](https://github.com/Yannael/ai-political-bias)
 
 Inspired by:
 - [David Rozado's work](https://davidrozado.substack.com/p/new-results-of-state-of-the-art-llms)
