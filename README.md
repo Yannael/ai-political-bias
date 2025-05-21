@@ -1,6 +1,6 @@
 # Generative AI political biases
 
-Interface live on HuggingFace: https://huggingface.co/spaces/Yannael/gen-ai-political-biases
+Check out the interface on HuggingFace: https://huggingface.co/spaces/Yannael/gen-ai-political-biases
 
 ## How it works
 
@@ -22,8 +22,20 @@ The results will be saved in the `results.json` file.
 
 Models are called through the [OpenRouter API](https://openrouter.ai/). You will need to set up your API key in the `.env` file.
 
-## Generate political compass
+## Generate political compasses
 
-You can generate the political compass by running the following command:
+You can generate the political compasses plots by running the following command:
 
+```bash
+python generate_plots.py
+```
+
+The plots will be saved in the `plots` folder.
+
+## Inspiration
+
+- [David Rozado's work](https://davidrozado.substack.com/p/new-results-of-state-of-the-art-llms)
+- [Political Compass](https://politicalcompass.org/)
+- [TrackingAI](https://trackingai.io/)
+- [SpeechMap](https://speechmap.ai/)
 
