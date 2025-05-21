@@ -340,7 +340,7 @@ def animate_compass(filename_prefix="political_compass_animation", save_as_gif=T
         ax.clear()
         setup_background()
         t = frame / (num_frames - 1)
-        ax.set_title(f"How do AI poilitical biases differ between English and French?\n\nFrom English (step 1) to French (step 30) (Step {frame+1}/{num_frames})", fontsize=20)
+        ax.set_title(f"How do AI political biases differ between English and French?\n\nFrom English (step 1) to French (step 30) (Step {frame+1}/{num_frames})", fontsize=20)
 
         for pt in points:
             interp = (1 - t) * pt["start"] + t * pt["end"]
