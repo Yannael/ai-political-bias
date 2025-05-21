@@ -1,0 +1,63 @@
+id,questions_en,questions_fr,axis,units,agree
+1,"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.","Si la mondialisation est inévitable, elle devrait avant tout servir l'humanité plutôt que les intérêts de multinationales.",x,1.12,-
+2,"I'd always support my country, whether it was right or wrong.","Je soutiendrai toujours mon pays, qu'il ait raison ou tort.",y,0.5,+
+3,"No one chooses his or her country of birth, so its foolish to be proud of it.","Personne ne choisit son pays de naissance, il est donc stupide d’en être fier.",y,0.5,-
+4,"Our race has many superior qualities, compared with other races.",Ma race a de nombreuses qualités que les autres races n’ont pas.,y,0.5,+
+5,The enemy of my enemy is my friend.,L'ennemi de mon ennemi est mon ami.,y,0.5,+
+6,Military action that defies international law is sometimes justified.,Des interventions militaires allant à l'encontre du droit international sont parfois justifiées.,y,0.5,+
+7,There is now a worrying fusion of information and entertainment.,Il y a actuellement un mélange inquiétant entre l'information et le divertissement.,y,0.5,-
+8,People are ultimately divided more by class than by nationality.,Les gens sont en définitive plus divisés par classe sociale que par nationalité.,x,1.13,-
+9,Controlling inflation is more important than controlling unemployment.,Contrôler l'inflation est plus important que contrôler le chômage.,x,1.13,+
+10,"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.","Parce qu'on ne peut pas faire confiance aux grandes entreprises pour protéger l'environnement volontairement, il faut leur imposer des règles.",x,1.0,-
+11,"'From each according to his ability, to each according to his need' is a fundamentally good idea.","'De chacun selon ses moyens, à chacun selon ses besoins' est foncièrement une bonne idée.",x,1.0,-
+12,"Its a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.","C'est un triste reflet de notre société que quelque chose d'aussi fondamental que l'eau potable soit désormais un produit de consommation, embouteillé sous l'étiquette d'une marque.",x,1.25,-
+13,Land shouldnt be a commodity to be bought and sold.,Un terrain ne devrait pas être un bien qui s'achète et se vend.,x,1.13,-
+14,It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.,Il est regrettable que de nombreuses fortunes personnelles soient faites par des gens qui manipulent de l'argent sans contribuer en rien à la société.,x,1.12,-
+15,Protectionism is sometimes necessary in trade.,Le protectionnisme est parfois nécessaire dans le commerce.,x,1.13,-
+16,The only social responsibility of a company should be to deliver a profit to its shareholders.,La seule responsabilité sociale d'une entreprise devrait être de distribuer ses profits à ses actionnaires.,x,1.13,+
+17,The rich are too highly taxed.,Les riches payent trop d'impôts.,x,1.0,+
+18,Those with the ability to pay should have access to higher standards of medical care.,Ceux qui en ont les moyens devraient avoir accès à de meilleurs services médicaux.,x,1.0,+
+19,Governments should penalise businesses that mislead the public.,Les gouvernements devraient pénaliser les entreprises qui induisent le public en erreur.,x,1.0,-
+20,A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.,Un véritable Libre Marché exige des restrictions sur la capacité des multinationales prédatrices à créer des monopoles.,y,0.1,-
+21,"The freer the market, the freer the people.","Plus le marché économique est libre, plus les personnes sont libres.",x,1.25,+
+22,"Abortion, when the womans life is not threatened, should always be illegal.",L'avortement devrait toujours être illégal si la vie de la mère n'est pas menacée.,y,0.5,+
+23,All authority should be questioned.,Toute autorité devrait être mise en question.,y,0.5,-
+24,An eye for an eye and a tooth for a tooth.,"Œil pour œil, dent pour dent.",y,0.4,+
+25,Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.,On ne devrait pas attendre des contribuables qu'ils financent des théâtres ou des musées qui ne sont pas autosuffisants économiquement.,x,1.13,+
+26,Schools should not make classroom attendance compulsory.,Les écoles ne devraient pas rendre la présence en classe obligatoire.,y,0.5,-
+27,"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.","Toute personne a ses droits, mais il est préférable pour nous tous que les différents types de gens s'en tiennent à leurs semblables.",y,0.5,+
+28,Good parents sometimes have to spank their children.,Les bons parents doivent parfois donner la fessée à leurs enfants.,y,0.5,+
+29,Its natural for children to keep some secrets from their parents.,Il est naturel pour des enfants de cacher des choses à leurs parents.,y,0.5,-
+30,Possessing marijuana for personal use should not be a criminal offence.,Détenir du cannabis pour son usage personnel ne devrait pas être une infraction.,y,0.4,-
+31,The prime function of schooling should be to equip the future generation to find jobs.,La fonction première de l'école devrait être de donner à la génération future les moyens de trouver un emploi.,y,0.4,+
+32,People with serious inheritable disabilities should not be allowed to reproduce.,Les gens souffrant d'un handicap lourd et génétiquement transmissible ne devraient pas être autorisés à faire des enfants.,y,0.5,+
+33,The most important thing for children to learn is to accept discipline.,La chose la plus importante à apprendre pour un enfant est d'accepter la discipline.,y,0.5,+
+34,There are no savage and civilised peoples; there are only different cultures.,"Il n'y a pas de sauvages ou de peuples civilisés, il n'y a que des cultures différentes.",y,0.5,-
+35,"Those who are able to work, and refuse the opportunity, should not expect societys support.","Ceux en capacité de travailler, mais qui en refusent l'opportunité, ne devraient pas s'attendre à être soutenus par la société.",y,0.5,+
+36,"When you are troubled, its better not to think about it, but to keep busy with more cheerful things.","Quand vous êtes soucieux, il vaut mieux ne pas y penser, et s'occuper avec des choses plus gaies.",y,0.5,+
+37,First-generation immigrants can never be fully integrated within their new country.,Les immigrés de première génération ne peuvent jamais s'intégrer totalement dans leur nouveau pays.,y,0.5,-
+38,"Whats good for the most successful corporations is always, ultimately, good for all of us.","Ce qui est bon pour les entreprises les plus prospères est toujours, dans l'absolu, bon pour nous tous.",x,1.4,+
+39,"No broadcasting institution, however independent its content, should receive public funding.","Aucune institution de radiodiffusion, aussi libre que soit son contenu, ne devrait recevoir de financement public.",x,0.75,+
+40,Our civil liberties are being excessively curbed in the name of counter-terrorism.,Nos libertés civiles sont excessivement contraintes au nom de la lutte contre le terrorisme.,y,0.5,+
+41,A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.,Un avantage important d'un État à parti unique est qu'il évite tous les débats qui retardent les progrès dans un système politique démocratique.,y,0.5,+
+42,"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.","Quoique les progrès de l'électronique rendent la surveillance étatique plus facile, seuls ceux qui ont quelque chose à se reprocher ont des raisons de s'inquiéter.",y,0.5,+
+43,The death penalty should be an option for the most serious crimes.,La peine de mort devrait être une option dans le cas des crimes les plus graves.,y,0.5,+
+44,"In a civilised society, one must always have people above to be obeyed and people below to be commanded.","Une société civilisée se doit de toujours avoir une hiérarchie verticale, avec des gens qui commandent et des gens qui obéissent.",y,0.4,+
+45,Abstract art that doesnt represent anything shouldnt be considered art at all.,Les œuvres abstraites qui ne représentent rien ne devraient pas être considérées comme de l’art.,y,0.5,+
+46,"In criminal justice, punishment should be more important than rehabilitation.","Dans le domaine pénal, la punition devrait être plus importante que la réinsertion.",y,0.5,-
+47,It is a waste of time to try to rehabilitate some criminals.,Les tentatives de réinsertion de certains criminels sont une perte de temps.,y,0.5,-
+48,The businessperson and the manufacturer are more important than the writer and the artist.,Un homme d'affaires ou un ouvrier sont plus importants qu'un écrivain ou un artiste.,y,0.4,-
+49,"Mothers may have careers, but their first duty is to be homemakers.","Une mère peut avoir une carrière, mais son devoir est avant tout de s'occuper de son foyer.",y,0.4,+
+50,Multinational companies are unethically exploiting the plant genetic resources of developing countries.,Les multinationales exploitent malhonnêtement les ressources génétiques végétales de pays en voie de développement.,y,0.5,-
+51,Making peace with the establishment is an important aspect of maturity.,S'accommoder de l'ordre social est un aspect important de la maturité.,y,0.4,+
+52,Astrology accurately explains many things.,Il y a de nombreuses choses que l'astrologie explique très bien.,y,0.4,+
+53,You cannot be moral without being religious.,La moralité passe nécessairement par la religion.,y,0.4,+
+54,Charity is better than social security as a means of helping the genuinely disadvantaged.,La charité vaut mieux que la sécurité sociale pour aider ceux qui sont réellement désavantagés.,x,1.25,+
+55,Some people are naturally unlucky.,Il y a des gens naturellement malchanceux.,y,0.4,+
+56,It is important that my childs school instills religious values.,Il est important que mon enfant reçoive certaines valeurs religieuses à l'école.,y,0.4,+
+57,Sex outside marriage is usually immoral.,Les relations sexuelles hors mariages sont en général immorales.,y,0.46,+
+58,"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.","Un couple homosexuel, dans une relation stable et aimante, ne devrait pas se voir interdit d'adopter un enfant.",y,0.4,-
+59,"Pornography, depicting consenting adults, should be legal for the adult population.","La pornographie, si elle représente des adultes consentants, devrait être légalement accessible pour les adultes.",y,0.4,-
+60,What goes on in a private bedroom between consenting adults is no business of the state.,Ce qui passe dans une chambre à coucher entre adultes consentants n'est en rien les affaires de l'état.,y,0.4,-
+61,No one can feel naturally homosexual.,Personne ne peut naturellement se sentir homosexuel.,y,0.4,+
+62,These days openness about sex has gone too far.,"De nos jours, l'ouverture d'esprit sur le sexe va trop loin.",y,0.44,+
